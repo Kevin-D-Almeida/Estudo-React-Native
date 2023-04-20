@@ -1,0 +1,21 @@
+{
+	"Print to console": {
+		"scope": "javascript",
+		"prefix": "ComponenteFunc",
+		"body": [
+			"import React from 'react'",
+			"import {Text} from 'react-native'",
+			"import Estilo from './estilo'",
+			"",
+			"export default props =>{",
+			"    return(",
+			"        <Text style={Estilo.fontG}>",
+			"            $1",
+			"        </Text>",
+			"    )",
+			" }"
+			
+		],
+		"description": "Log output to console"
+	}
+}
